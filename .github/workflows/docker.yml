@@ -21,6 +21,6 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/arm32
           push: true
           tags: wushuo894/eclipse-temurin-arm32v7:latest, wushuo894/eclipse-temurin-arm32v7:17-jre
